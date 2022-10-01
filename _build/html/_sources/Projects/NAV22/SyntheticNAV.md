@@ -1,9 +1,5 @@
 # SyntheticNAV
 
-```{contents}
-:local:
-```
-
 ## gebe
 
 # Introduction

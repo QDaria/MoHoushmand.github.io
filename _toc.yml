@@ -3,6 +3,8 @@
 
 format: jb-book
 root: index
+defaults:  # The defaults key will be applied to all chapters and sub-sections
+  titlesonly: True
 parts:
   - caption: About
     #numbered: False  # Only applies to chapters in Part 1.
