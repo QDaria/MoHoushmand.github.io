@@ -1,0 +1,33 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: About
+    #numbered: False  # Only applies to chapters in Part 1.
+    chapters:
+    - file: About/about
+    - file: About/CV
+  - caption: Educations
+    #numbered: False
+    chapters:
+    - file: Educations/educations
+    - file: Educations/certifications
+  - caption: Experience
+    #numbered: False
+    chapters:
+    - file: Experience/experience
+    - file: Experience/volunteer
+  - caption: Selected Projects
+    #numbered: False
+    chapters:
+    - file: Projects/Art/fluidart
+    - file: Projects/NAV22/SyntheticNAV
+    - file: Projects/NAV17/SweedishNAV
+    - file: Projects/web/QDaria
+    - file: Projects/web/diktatur
+    - file: Projects/web/kubitt
+    - file: Projects/Pub/books
+    - file: Projects/Pub/articles
+    - file: Projects/Pub/blogs

@@ -1,0 +1,74 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Daniel Mo Houshmand
+author: Daniel Mo Houshmand
+logo: img/houshmand.svg
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
+  style_nav_header_background: #0538f5
+  search_bar_text': Search this book...
+  extra_navbar: Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+  home_page_in_navbar: true # Whether to include your home page in the left Navigation Bar
+  extra_footer: '' # Will be displayed underneath the footer.
+  use_multitoc_numbering: true # Continuous numbering across parts/chapters
+
+
+
+
+
+
+
+
+sphinx:
+  extra_extensions:
+  - sphinx_inline_tabs
+  - sphinx_jupyterbook_latex
+  - sphinx_exercise
+
+
+
+  config:
+    #html_theme: renku
+    #html_theme: sphinx_pdj_theme
+    #html_theme: sphinx_book_theme
+    html_theme: sphinx_rtd_theme
+    #html_theme: quantecon_book_theme
+    pygments_style: one-dark
+    html_title: Daniel Mo Houshmand
+    html_static_path: ../_static
+    # CSS files
+    html_css_files: custom0.css
+    # JS files
+    #html_js_files: custom.js
+
+
+
+
+
+
+
